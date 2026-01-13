@@ -10,8 +10,11 @@ https://stereolux.org/agenda/workshop-recoding-aux-sources-du-dessin-generatif
 * [Inkscape](https://inkscape.org/fr/release/inkscape-1.4.3/)
 * [AxiDraw software installation](https://wiki.evilmadscientist.com/Axidraw_Software_Installation)
 
+## Documents
+* [Roland DXY-1300 -1200 -1100 Command Reference Manual](https://archive.org/details/rolanddxy130012001100commandreferencemanualaf)
 
 ## Liens
-* [v3ga / Computer & Computer art history](https://github.com/v3ga/computer_history)<br />*A set of links related to computer & code history (english and french links)*
 * [Golan Levin / p5.plotSvg](https://github.com/golanlevin/p5.plotSvg/)<br />*p5.js library for exporting SVG files tailored for pen plotting.*
 * [Brian Boucheron / awesome-plotters](https://github.com/beardicus/awesome-plotters)<br />*A curated list of code and resources for computer-controlled drawing machines and other visual art robots.*
+* [3D printable plotter adapters for pens and refills](https://github.com/juliendorra/3D-printable-plotter-adapters-for-pens-and-refills)<br />*Use your favorite contemporary pens on vintage HP plotters with this parametric OpenSCAD code to create custom adapters.*
+* [v3ga / Computer & Computer art history](https://github.com/v3ga/computer_history)<br />*A set of links related to computer & code history (english and french links)*
