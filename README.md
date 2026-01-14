@@ -4,6 +4,7 @@ This workshop will revisit the seminal works of the pioneers of generative art f
 https://stereolux.org/agenda/workshop-recoding-aux-sources-du-dessin-generatif
 
 ### Générateur de nombres aléatoires
+* [List of random number generators](https://en.wikipedia.org/wiki/List_of_random_number_generators)<br />*Random number generators are important in many kinds of technical applications, including physics, engineering or mathematical computer studies.*
 * [Le hasard et sa production](https://guimarion.github.io/docs/MarionRapportFinal.pdf)<br />*"Notre problématique principale est de mettre en évidence le comment de la génération
 de nombres aléatoires et du test de son efficacité, et ce par des moyens algorithmiques."*
 * [A Million Random Digits with 100,000 Normal Deviates](https://www.rand.org/pubs/monograph_reports/MR1418.html)<br />*Still the largest known source of random digits and normal deviates, the work is routinely used by statisticians, physicists, polltakers, market analysts, lottery administrators, and quality control engineers.*
