@@ -1,11 +1,11 @@
 # Recoding : aux sources du dessin génératif / Stereolux / 2026
 This workshop will revisit the seminal works of the pioneers of generative art from the 1960s and 1970s: Colette and Charles Bangart, Manfred Mohr, Frieder Nake, Georg Nees, Michael Noll, Vera Molnár, and others. At a time when computers and plotters were confined to research laboratories, these artists paved the way for new forms of creation using algorithmic material.<br />  
 
-> "When we write a program intending to put the resulting drawings up on a wall of a gallery, we want that people like them and react positively. If it happens, that's nice. We are responsible for this, we alone. Never the computer. Never.<br /><br />We think the image. We don't make it.<br /><br />When we think the image, we always think infinitely many images. That's absolutely new. The algorithmic artist is thus a totally new kind of artist."
-
-> — *Frieder Nake*
-
 https://stereolux.org/agenda/workshop-recoding-aux-sources-du-dessin-generatif
+
+> "When we write a program intending to put the resulting drawings up on a wall of a gallery, we want that people like them and react positively. If it happens, that's nice. We are responsible for this, we alone. Never the computer. Never.<br /><br />We think the image. We don't make it.<br /><br />When we think the image, we always think infinitely many images. That's absolutely new. The algorithmic artist is thus a totally new kind of artist."<br /><br />
+— *Frieder Nake*
+
 
 ## Tools
 * [Visual Studio Code](https://code.visualstudio.com/)
@@ -13,7 +13,7 @@ https://stereolux.org/agenda/workshop-recoding-aux-sources-du-dessin-generatif
 * [vpype](https://github.com/abey79/vpype)<br />*Swiss-Army-knife command-line tool for plotter vector graphics*
 * [Inkscape](https://inkscape.org/fr/release/inkscape-1.4.3/)
 * [AxiDraw software installation](https://wiki.evilmadscientist.com/Axidraw_Software_Installation)
-* **Http server** that comes with this repository to perform various tasks through an API :  
+* **HTTP server** that comes with this repository to perform various tasks through an API :  
   * resize svg files with vpype.
   * transform svg to hpgl with vpype.
   * drive AxiDraw plotter.
