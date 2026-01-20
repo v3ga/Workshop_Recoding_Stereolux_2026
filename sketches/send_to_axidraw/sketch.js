@@ -17,7 +17,7 @@ let myAxiDrawOptions =
 //------------------------------------------------------------
 async function setup() 
 {
-  createCanvas(format[0]*2,format[1]*2);
+  createCanvas(format[0]*DPCM/10,format[1]*DPCM/10);
   createButtons();
   setSvgResolutionDPCM(DPCM);
   noLoop();
@@ -34,7 +34,7 @@ async function draw()
 
   if (bDoExportSvg)
   {
-    beginRecordSVG(this, null);
+    beginRecordSvg(this, null);
   }
 
   stroke(0);
@@ -59,7 +59,7 @@ async function draw()
       let strSvg = endRecordSvg();
 
       if (command == 'plot')
-        await call('axidraw/plot', myAxiDrawOptions, {'svg':strSvg});
+        await call('axidraw/plot', {'svg':strSvg, 'options':myAxiDrawOptions});
       else if (command == 'svg')
         saveSvg(`plot_send_to_axidraw_${myRandomSeed}.svg`, strSvg);
 
@@ -84,13 +84,13 @@ function createButtons()
     );
 
     toggleButton = createButton('Toggle Up/Down');
-    toggleButton.mousePressed( async _=> await call('axidraw/toggle', myAxiDrawOptions) );
+    toggleButton.mousePressed( async _=> await call('axidraw/toggle', {'options':myAxiDrawOptions}) );
 
     cycleButton = createButton('Cycle Up/Down');
-    cycleButton.mousePressed( async _=> await call('axidraw/cycle', myAxiDrawOptions) );
+    cycleButton.mousePressed( async _=> await call('axidraw/cycle', {'options':myAxiDrawOptions}) );
 
     turnoffButton = createButton('Turn off motors');
-    turnoffButton.mousePressed( async _=> await call('axidraw/align', myAxiDrawOptions) );
+    turnoffButton.mousePressed( async _=> await call('axidraw/align', {'options':myAxiDrawOptions}) );
 
     plotButton = createButton('Plot');
     plotButton.mousePressed( _ => {

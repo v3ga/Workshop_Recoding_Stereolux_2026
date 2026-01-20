@@ -120,6 +120,11 @@ async def svg_to_hpgl(request):
     # Get SVG from request
     str_svg = request_json["svg"]
 
+    #Options
+    opts = request_json.get("opts", {})
+    margins = opts.get("margins", "2cm")
+    format  = opts.get("format", "a3")    
+
     # Create temp file for output HPGL
     with tempfile.NamedTemporaryFile(suffix=".hpgl", delete=False) as tmp:
         path_out_hpgl = Path(tmp.name)
@@ -130,7 +135,7 @@ async def svg_to_hpgl(request):
         "--config", str(PATH_FILE_CONFIG_PLOTTER),
         "read", "-",
         "rotate", "--", "-90", 
-        "layout", "--landscape", "--fit-to-margins", "2cm", "a3",
+        "layout", "--landscape", "--fit-to-margins", margins, format,
         "write", "--device", ID_PLOTTER, "--absolute", str(path_out_hpgl),
         stdin=asyncio.subprocess.PIPE
     )

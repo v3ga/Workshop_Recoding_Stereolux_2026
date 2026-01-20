@@ -13,7 +13,7 @@ async function setup()
   beginRecordSvg(this, null);
 
   let xprev,yprev,margin = 0.1*width;
-  for (let i=0;i<100;i++)
+  for (let i=0;i<50;i++)
   {
     let x = map(random(),0,1,margin,width-margin);
     let y = map(random(),0,1,margin,height-margin);

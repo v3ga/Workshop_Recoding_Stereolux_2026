@@ -1,30 +1,29 @@
-/* 
-Part of the ReCode Project (http://recodeproject.com)
-Based on "Random Squares" by Charles Csuri
-Originally published in "Computer Graphics and Art" vol1 no2, 1976
-Copyright (c) 2012 Chris Allick - OSI/MIT license (http://recodeproject/license).
-*/
+//------------------------------------------------------------
+let format        = FORMAT_A3_MM;
+let DPCM          = 20;
+let filename      = "__template__";
+let bDoExportSvg  = false;
 
 //------------------------------------------------------------
-let filename = "__template__";
-let bDoExportSvg = false;
-
-//------------------------------------------------------------
-function setup() {
-  createCanvas(512,512); 
+function setup() 
+{
+  createCanvas(format[0]*DPCM/10, format[1]*DPCM/10); 
+  setSvgResolutionDPCM(20);
   noLoop();
 }
 
 //------------------------------------------------------------
 async function draw() 
 {
+  background(240);
+  noFill();
+
   if (bDoExportSvg)
     beginRecordSvg(this, null);
 
-  background(240);
-  noFill();
-  let margin = 0.15 * width;
-  rect(margin,margin,width-2*margin,height-2*margin);
+  // BEGIN DRAW
+
+  // END DRAW
 
   if (bDoExportSvg)
   {
@@ -33,7 +32,6 @@ async function draw()
     // vpype resizing
     let strSvgA3  = await vpype(strSVG, ['layout', '--fit-to-margins', '2cm', 'a3']);
 
-    //console.log(strSvgA3)
     // vpype for hpgl export
     let strHPGL = await svgToHPGL(strSVG);
 

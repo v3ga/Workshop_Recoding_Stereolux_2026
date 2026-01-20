@@ -68,11 +68,16 @@ async function vpype(strSvg, args=[])
 //------------------------------------------------------------
 /**
  * Converts a svg string to a hpgl string
+ * This functions assumes the svg is in portrait mode
+ * The function makes a call to vpype to rotate the drawing (portrait -> landscape) and sets the layout in landscape mode.
  *
  * @param {string} strSvg - svg string to be read by vpype. Will be fed into stdin
+ * @param {Object} [opts] - options
+ * @param {string} [opts.margins='2cm"] - margins
+ * @param {string} [opts.format='a3'] - output format, possible values : 'a4', 'a3'
  * @returns {string} HPGL string
  */
-async function svgToHPGL(strSvg)
+async function svgToHPGL(strSvg, opts={'margins':'2cm', format:'a3'})
 {
     return await call('svg_to_hpgl', {'svg':strSvg});
 }
@@ -83,7 +88,7 @@ async function svgToHPGL(strSvg)
  * This function parses HPGL most common instructions, warning some are now handled !
  * 
  * @param {string} hpgl - hpgl string
- * @param {Object} [opts] - hpgl string
+ * @param {Object} [opts] - options
  * @param {number} [opts.plotterWidth=PlotterRolandDXY.width_units] - plotter width units
  * @param {number} [opts.plotterHeight=PlotterRolandDXY.height_units] - plotter height units
  * @returns {void}
