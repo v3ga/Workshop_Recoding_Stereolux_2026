@@ -1,0 +1,88 @@
+[device.roland-dxy-1300]
+name = "Roland DXY-1300"            # human-readable name for the plotter
+plotter_unit_length = "0.025mm"     # numeric values in pixel or string with units
+pen_count = 8                       # number of pen supported by the plotter
+
+info = "Plot configuration..."      # (optional) human-readable information on how
+                                    # the plotter must be configured for this
+                                    # configuration to work as expected
+
+[[device.roland-dxy-1300.paper]]
+name = "a3"                          # name of the paper format
+aka_names = ["A3"]
+paper_size = ["420mm", "297mm"]     # (optional) physical paper size / CAUTION: order must
+                                    # respect the native X/Y axis orientation of the plotter
+                                    # unless paper_orientation is specified
+                                    # Note: may be omitted if the plotter support arbitrary
+                                    # paper size
+
+paper_orientation = "landscape"      # (optional) "portrait" or "landscape"
+                                    # specify the orientation of the plotter  coordinate
+                                    # system on the page ("landscape" means the X axis is
+                                    # along the long edge)
+
+origin_location = ["0", "0"]    # physical location from the page's top-left corner of
+                                    # the (0, 0) plotter unit coordinates
+
+origin_location_reference = "botleft"
+                                    # (optional) reference used for origin_location
+                                    # "topleft" (default) or "botleft"
+
+x_range = [0, 16800]                # (optional) admissible range in plotter units along
+                                    # the X axis
+y_range = [0, 11880]                # (optional) admissible range in plotter units along
+                                    # the Y axis
+y_axis_up = true                    # set to true if the plotter's Y axis points up on
+                                    # the physical page
+rotate_180 = false                  # (optional) set to true to rotate the geometries by
+                                    # 180 degrees on the page
+
+set_ps = 0                          # (optional) if present, a PS command with the
+                                    # corresponding value is generated
+
+final_pu_params = "0,0"             # (optional) if present, specifies parameter to pass
+                                    # to the final `PU;` command
+
+info = "Paper loading..."           # (optional) human-readable information on how the
+                                    # paper must be loaded for this configuration to work
+                                    # as expected
+
+[[device.roland-dxy-1300.paper]]
+name = "a4"                          # name of the paper format
+aka_names = ["A4"]
+paper_size = ["297mm", "210mm"]     # (optional) physical paper size / CAUTION: order must
+                                    # respect the native X/Y axis orientation of the plotter
+                                    # unless paper_orientation is specified
+                                    # Note: may be omitted if the plotter support arbitrary
+                                    # paper size
+
+paper_orientation = "landscape"      # (optional) "portrait" or "landscape"
+                                    # specify the orientation of the plotter  coordinate
+                                    # system on the page ("landscape" means the X axis is
+                                    # along the long edge)
+
+origin_location = ["0", "0"]    # physical location from the page's top-left corner of
+                                    # the (0, 0) plotter unit coordinates
+
+origin_location_reference = "botleft"
+                                    # (optional) reference used for origin_location
+                                    # "topleft" (default) or "botleft"
+
+x_range = [0, 11880]                # (optional) admissible range in plotter units along
+                                    # the X axis
+y_range = [0, 8400]                # (optional) admissible range in plotter units along
+                                    # the Y axis
+y_axis_up = true                    # set to true if the plotter's Y axis points up on
+                                    # the physical page
+rotate_180 = false                  # (optional) set to true to rotate the geometries by
+                                    # 180 degrees on the page
+
+set_ps = 0                          # (optional) if present, a PS command with the
+                                    # corresponding value is generated
+
+final_pu_params = "0,0"             # (optional) if present, specifies parameter to pass
+                                    # to the final `PU;` command
+
+info = "Paper loading..."           # (optional) human-readable information on how the
+                                    # paper must be loaded for this configuration to work
+                                    # as expected

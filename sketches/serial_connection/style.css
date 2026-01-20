@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  font-family:  Helvetica;
+  box-sizing: border-box;
+}
+
+canvas 
+{
+  flex:1
+}
+
+p{flex:1;overflow-wrap: anywhere;}
