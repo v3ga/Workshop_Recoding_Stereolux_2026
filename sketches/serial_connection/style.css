@@ -5,13 +5,10 @@ html, body {
 
 body
 {
-  font-family:  Helvetica;
-  box-sizing: border-box;
+  padding:      1em;
+  box-sizing:   border-box;
 }
 
-canvas 
-{
-  flex:1
+canvas {
+  display: block;
 }
-
-p{flex:1;overflow-wrap: anywhere;}
