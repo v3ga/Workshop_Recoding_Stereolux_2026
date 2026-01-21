@@ -61,14 +61,38 @@ If everything went fine, you should be able to open ```http://127.0.0.1:8080``` 
 
 ### p5.recoding library documentation
 #### API Server
-``` vpype(strSvg, args=[]) ```
-```  ```
-```  ```
+- [```vpype(strSvg, args=[])```](https://github.com/v3ga/Workshop_Recoding_Stereolux_2026/blob/9a57498b5b02a77d6e0d1dfdbbc6a4beab6a408e/sketches/libs/p5.recoding.js#L57)
+- [```svgToHPGL(strSvg, opts={})```](https://github.com/v3ga/Workshop_Recoding_Stereolux_2026/blob/9a57498b5b02a77d6e0d1dfdbbc6a4beab6a408e/sketches/libs/p5.recoding.js#L80)
+
+See 
+
 #### Serial communication
+```js
+let serialCo = new SerialConnection();
+let isConnected = await serialCo.connect();
+if (isConnected){
+  // ...
+}
+```
+
+See [sketches/serial_connection](https://github.com/v3ga/Workshop_Recoding_Stereolux_2026/blob/main/sketches/serial_connection/sketch.js) for full example.
+
+#### Roland-DXY plotter
+```js
+if (SerialConnection.isAvailable())
+{
+  serialCo = new SerialConnection();
+  rolandDXY = new PlotterRolandDXY( serialCo );
+}
+
+```
+See [sketches/send_to_roland_dxy](https://github.com/v3ga/Workshop_Recoding_Stereolux_2026/blob/main/sketches/send_to_roland_dxy/sketch.js#L82) for full example.
 
 #### Saving files
+- [```saveSvg(filename, strSvg)```](https://github.com/v3ga/Workshop_Recoding_Stereolux_2026/blob/9a57498b5b02a77d6e0d1dfdbbc6a4beab6a408e/sketches/libs/p5.recoding.js#L243)
+- [```saveHPGL(filename, strHPGL)```](https://github.com/v3ga/Workshop_Recoding_Stereolux_2026/blob/9a57498b5b02a77d6e0d1dfdbbc6a4beab6a408e/sketches/libs/p5.recoding.js#L222)
 
-
+See [sketches/vpype](https://github.com/v3ga/Workshop_Recoding_Stereolux_2026/blob/main/sketches/vpype/sketch.js#L36) for full example.
 
 ## Links
 ### ReCode
