@@ -97,6 +97,7 @@ See [sketches/vpype](https://github.com/v3ga/Workshop_Recoding_Stereolux_2026/bl
 ## Links
 ### Computer graphics & art magazines
 * [From May 1976 to Feb. 1978](https://v3ga.net/computer_graphics_and_art_magazine/)
+* [Magazines & more on Compart](http://dada.compart-bremen.de/search?query=computer+graphics+and+art)
 
 ### ReCode
 * [The ReCode project](https://web.archive.org/web/20251006215316/http://recodeproject.com/)<br />*The ReCode Project is a community-driven effort to preserve computer art by translating it into a modern programming language (Processing)*
