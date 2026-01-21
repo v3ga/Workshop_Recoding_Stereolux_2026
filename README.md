@@ -95,6 +95,9 @@ See [sketches/send_to_roland_dxy](https://github.com/v3ga/Workshop_Recoding_Ster
 See [sketches/vpype](https://github.com/v3ga/Workshop_Recoding_Stereolux_2026/blob/main/sketches/vpype/sketch.js#L36) for full example.
 
 ## Links
+### Computer graphics & art magazines
+* [From May 1976 to Feb. 1978](https://v3ga.net/computer_graphics_and_art_magazine/)
+
 ### ReCode
 * [The ReCode project](https://web.archive.org/web/20251006215316/http://recodeproject.com/)<br />*The ReCode Project is a community-driven effort to preserve computer art by translating it into a modern programming language (Processing)*
 * [Zach Lieberman / Recreating The Past](https://rtp.media.mit.edu/)<br />*In Recreating the Past, we will study computational art from the past decades and recreate these works with contemporary techniques to gain aesthetic, analytical and technical knowledge.*
