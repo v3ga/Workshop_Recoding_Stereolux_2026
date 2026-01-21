@@ -18,7 +18,7 @@ async function setup()
   // Handlers
   btnDimensions.mousePressed( async () => 
   {
-    let dim = await serialCo.write("OW;");
+    let dim = await serialCo.write("OW;", true);
     console.log(dim)
   })
 

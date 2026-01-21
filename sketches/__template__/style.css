@@ -5,20 +5,7 @@ html, body {
 
 body
 {
-  display:      flex;
   font-family:  Helvetica;
   padding:      1em;
   box-sizing:   border-box;
-  gap:1em;
-}
-
-canvas 
-{
-  flex:1
-}
-
-textarea
-{
-  flex:       1;
-  height: 50vh;
 }

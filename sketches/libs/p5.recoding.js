@@ -262,6 +262,12 @@ function saveBlob(filename, blob)
 }
 
 // ----------------------------------------------------------------
+function enableBtn(btn, is=true)
+{
+    btn.elt.disabled = !is;
+}
+
+// ----------------------------------------------------------------
 class SerialConnection
 {
     static __LOG__   = true;
@@ -319,20 +325,23 @@ class SerialConnection
         return true;
     }
 
-    async write(s)
+    async write(s, bRead=false)
     {
         if (SerialConnection.__LOG__)               
-            console.log(`serial, writing ${s} (then reading)`);
+            console.log(`serial, writing ${s}`);
 
         const writer = this.outputStream.getWriter();
         await writer.write(s);
         writer.releaseLock();
-        let response = await this.read();
 
-        if (SerialConnection.__LOG__)               
-            console.log(`serial, response is ${response}`)
-
-        return response;
+        if (bRead)
+        {
+            let response = await this.read();
+            if (SerialConnection.__LOG__)               
+                console.log(`serial, response is ${response}`)
+            return response;
+        }
+        return null;
     }
 
     async read()
@@ -370,18 +379,21 @@ class PlotterRolandDXY
     static width_units          = 16800;
     static height_units         = 11880; 
 
+    // ----------------------------------------------------------------
     constructor( serialConnection )
     {
         this.serialConnection   = serialConnection;
         this.bWritingBuffer     = false;
     }
 
+    // ----------------------------------------------------------------
     async plot(hpgl)
     {
         if (!this.bWritingBuffer)
             this.writeBuffer(hpgl);
     }
 
+    // ----------------------------------------------------------------
     async writeBuffer(s,cbDone)
     {
         this.buffer  = s;
@@ -395,13 +407,14 @@ class PlotterRolandDXY
         }
     }
 
+    // ----------------------------------------------------------------
     async writeBufferChunk(cbDone)
     {
         let avail = await this.checkBytesAvailable();
         if (avail < PlotterRolandDXY.BUFFER_CHUNK_SIZE)
         {
             if (PlotterRolandDXY.__LOG__)
-                console.log(`serial, waiting avail=${avail} (buffer size=${BUFFER_SIZE})`)
+                console.log(`serial, waiting avail=${avail} (buffer size=${PlotterRolandDXY.BUFFER_CHUNK_SIZE})`)
             setTimeout( this.writeBufferChunk.bind(this),200);
         }
         else
@@ -433,9 +446,10 @@ class PlotterRolandDXY
         }
     } 
 
+    // ----------------------------------------------------------------
     async checkBytesAvailable()
     {
-        let bytesAvailable = await this.serialConnection.write( PlotterRolandDXY.RS232_PREFIX+"B");
+        let bytesAvailable = await this.serialConnection.write( PlotterRolandDXY.RS232_PREFIX+"B", true);
         return bytesAvailable ? parseInt(bytesAvailable) : -1;
     }
 }
