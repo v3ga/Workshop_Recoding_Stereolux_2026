@@ -5,9 +5,6 @@ let hpgl = "";
 let teHPGL, btnDraw;
 
 //------------------------------------------------------------
-p5.disableFriendlyErrors = true;
-
-//------------------------------------------------------------
 function setup() 
 {
   createCanvas(420*2, 297*2);
