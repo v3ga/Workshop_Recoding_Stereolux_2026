@@ -32,7 +32,7 @@ First we are going to create a virtual environment for the server.
 In a terminal type the following commands : 
 ```bash
 # Replace [path] with the appropriate location on your system
-cd [path]/param-explorer 
+cd [path] 
 ```
 ```bash
 python -m venv .venv
