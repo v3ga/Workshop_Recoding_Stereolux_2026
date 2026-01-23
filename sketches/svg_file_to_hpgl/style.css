@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  display:      flex;
+  font-family:  Helvetica;
+  padding:      1em;
+  box-sizing:   border-box;
+  gap:        1em;
+  flex-direction: column;
+}
+
+
+
+#textareas
+{
+  flex:       1;
+  display : flex;
+  gap : 10px;
+}
+
+#textareas textarea
+{
+  flex: 1;
+  height:300px;
+}
+
+
+#btns
+{
+  flex:       1;
+}
