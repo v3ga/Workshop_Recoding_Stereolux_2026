@@ -31,7 +31,7 @@ Olivier jumped into the realm of cubes edges by recreating one of [Manfred Mohr'
 
 ****
 
-[Swann](https://swannymouton.com/) played with classic [Georg Nees' Schotter](https://collections.vam.ac.uk/item/O221321/schotter-print-nees-georg/), Harold Cohen organic lines (can't remember the name) and [Roger Coqart's Structured Square - Inwards](http://dada.compart-bremen.de/item/artwork/1264).
+[Swann](https://swannymouton.com/) played with classic [Georg Nees' Schotter](https://collections.vam.ac.uk/item/O221321/schotter-print-nees-georg/), [Harold Cohen's "Three Behaviors for Partitioning Space"](http://dada.compart-bremen.de/item/artwork/332) and [Roger Coqart's Structured Square - Inwards](http://dada.compart-bremen.de/item/artwork/1264).
 <p>
 <img src="data/images/260123_Swann_Neels_smile-768w.jpg" height="500" width="auto" />
 <img src="data/images/260123_Swann_Cohen-768w.jpg" height="500" width="auto" />
