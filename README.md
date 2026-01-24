@@ -13,7 +13,7 @@ https://stereolux.org/agenda/workshop-recoding-aux-sources-du-dessin-generatif
 [Thomas](https://www.thomaslanza.com/) recoded and played with [Frieder Nake's Walk through raster](https://collections.vam.ac.uk/item/O214165/walk-through-raster-series-2-photograph-nake-frieder/) algorithm.
 <p>
 <img src="data/images/260123_PolygonSoup_Nake_Cities-768w.jpg" height="500" width="auto" />
- <img src="data/images/260123_PolygonSoup_Nake_03-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_02-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_01-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Swann_Coqart-768w.jpg" height="500" width="auto" />
+ <img src="data/images/260123_PolygonSoup_Nake_03-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_02-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_01-768w.jpg" height="500" width="auto" />
  </p>
 
 ****
@@ -31,10 +31,11 @@ Olivier jumped into the realm of cubes edges by recreating one of [Manfred Mohr'
 
 ****
 
-[Swann](https://swannymouton.com/) played with classic [Georg Nees' Schotter](https://collections.vam.ac.uk/item/O221321/schotter-print-nees-georg/) and Harold Cohen organic lines (can't remember the name).
+[Swann](https://swannymouton.com/) played with classic [Georg Nees' Schotter](https://collections.vam.ac.uk/item/O221321/schotter-print-nees-georg/), Harold Cohen organic lines (can't remember the name) and [Roger Coqart's Structured Square - Inwards](http://dada.compart-bremen.de/item/artwork/1264).
 <p>
 <img src="data/images/260123_Swann_Neels_smile-768w.jpg" height="500" width="auto" />
 <img src="data/images/260123_Swann_Cohen-768w.jpg" height="500" width="auto" />
+ <img src="data/images/260123_Swann_Coqart-768w.jpg" height="500" width="auto" />
  </p>
 
 ****
@@ -48,6 +49,7 @@ Matthieu played with a custom algorithm and plotted it with a Roland DXY plotter
 <p>
  <img src="data/images/260123_Matthieu_Stars-768w.jpg" height="500" width="auto" />
 </p>
+
 ## Tools
 * [Visual Studio Code](https://code.visualstudio.com/)
   * [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode)<br />*It helps you create p5.js projects in Visual Studio Code. It also includes autocompletion, a simple tool to browse and install third-party p5 libraries, and the Live Server extension.*   
