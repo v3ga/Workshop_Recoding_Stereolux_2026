@@ -10,9 +10,44 @@ https://stereolux.org/agenda/workshop-recoding-aux-sources-du-dessin-generatif
 
 
 ## Plots
-<img src="data/images/260123_PolygonSoup_Nake_Cities-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Nicolas_body-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Swann_Cohen-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Matthieu_Stars-768w.jpg" height="500" width="auto" />
-<img src="data/images/260123_Olivier_Mohr-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Nicolas_Auro_Lecci-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_03-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_02-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_01-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Swann_Coqart-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Marine_Glyphs-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Swann_Neels_smile-768w.jpg" height="500" width="auto" />
+[Thomas](https://www.thomaslanza.com/) recoded and played with [Frieder Nake's Walk through raster](https://collections.vam.ac.uk/item/O214165/walk-through-raster-series-2-photograph-nake-frieder/) algorithm.
+<p>
+<img src="data/images/260123_PolygonSoup_Nake_Cities-768w.jpg" height="500" width="auto" />
+ <img src="data/images/260123_PolygonSoup_Nake_03-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_02-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_01-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Swann_Coqart-768w.jpg" height="500" width="auto" />
+ </p>
 
+****
+
+Olivier jumped into the realm of cubes edges by recreating one of [Manfred Mohr's Cubic Limit](https://www.emohr.com/two_1972.html).
+<p><img src="data/images/260123_Olivier_Mohr-768w.jpg" height="500" width="auto" /></p>
+
+****
+
+[Nicolas](https://nicolasdaniel.com/) was the [James R Warner emerging man](https://web.archive.org/web/20241212145324/http://recodeproject.com/artwork/v2n2emerging-man) and started to recode [ArcLink](https://collections.vam.ac.uk/item/O1326187/arclink-print-auro-lecci/) by Auro Lecci.
+<p>
+ <img src="data/images/260123_Nicolas_body-768w.jpg" height="500" width="auto" />
+<img src="data/images/260123_Nicolas_Auro_Lecci-768w.jpg" height="500" width="auto" />
+</p>
+
+****
+
+[Swann](https://swannymouton.com/) played with classic [Georg Nees' Schotter](https://collections.vam.ac.uk/item/O221321/schotter-print-nees-georg/) and Harold Cohen organic lines (can't remember the name).
+<p>
+<img src="data/images/260123_Swann_Neels_smile-768w.jpg" height="500" width="auto" />
+<img src="data/images/260123_Swann_Cohen-768w.jpg" height="500" width="auto" />
+ </p>
+
+****
+
+Marine created a new artwork from [Aaron Marcus' Untitled 3](https://web.archive.org/web/20250623121916/http://recodeproject.com/artwork/v3n2untitled-3-marcus).
+<p><img src="data/images/260123_Marine_Glyphs-768w.jpg" height="500" width="auto" /></p>
+
+****
+
+Matthieu played with a custom algorithm and plotted it with a Roland DXY plotter.
+<p>
+ <img src="data/images/260123_Matthieu_Stars-768w.jpg" height="500" width="auto" />
+</p>
 ## Tools
 * [Visual Studio Code](https://code.visualstudio.com/)
   * [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode)<br />*It helps you create p5.js projects in Visual Studio Code. It also includes autocompletion, a simple tool to browse and install third-party p5 libraries, and the Live Server extension.*   
