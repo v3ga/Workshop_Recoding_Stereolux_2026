@@ -9,6 +9,10 @@ https://stereolux.org/agenda/workshop-recoding-aux-sources-du-dessin-generatif
 — *Frieder Nake*
 
 
+## Plots
+<img src="data/images/260123_PolygonSoup_Nake_Cities-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Nicolas_body-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Swann_Cohen-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Matthieu_Stars-768w.jpg" height="500" width="auto" />
+<img src="data/images/260123_Olivier_Mohr-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Nicolas_Auro_Lecci-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_03-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_02-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_01-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Swann_Coqart-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Marine_Glyphs-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Swann_Neels_smile-768w.jpg" height="500" width="auto" />
+
 ## Tools
 * [Visual Studio Code](https://code.visualstudio.com/)
   * [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode)<br />*It helps you create p5.js projects in Visual Studio Code. It also includes autocompletion, a simple tool to browse and install third-party p5 libraries, and the Live Server extension.*   
@@ -122,7 +126,3 @@ See [sketches/vpype](https://github.com/v3ga/Workshop_Recoding_Stereolux_2026/bl
 
 ### History
 * [v3ga / Computer & Computer art history](https://github.com/v3ga/computer_history)<br />*A set of links related to computer & code history (english and french links)*
-
-## Plots
-<img src="data/images/260123_PolygonSoup_Nake_Cities-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Nicolas_body-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Swann_Cohen-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Matthieu_Stars-768w.jpg" height="500" width="auto" />
-<img src="data/images/260123_Olivier_Mohr-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Nicolas_Auro_Lecci-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_03-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_02-768w.jpg" height="500" width="auto" /><img src="data/images/260123_PolygonSoup_Nake_01-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Swann_Coqart-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Marine_Glyphs-768w.jpg" height="500" width="auto" /><img src="data/images/260123_Swann_Neels_smile-768w.jpg" height="500" width="auto" />
