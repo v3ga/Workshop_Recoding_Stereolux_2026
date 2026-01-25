@@ -5,7 +5,7 @@ https://stereolux.org/agenda/workshop-recoding-aux-sources-du-dessin-generatif
 
 <img src="data/images/Roland_DXY_1300.jpeg" height="350px" >
 
-> "When we write a program intending to put the resulting drawings up on a wall of a gallery, we want that people like them and react positively. If it happens, that's nice. We are responsible for this, we alone. Never the computer. Never.<br /><br />We think the image. We don't make it.<br /><br />When we think the image, we always think infinitely many images. That's absolutely new. The algorithmic artist is thus a totally new kind of artist."<br /><br />
+> "We think the image. We don't make it.<br /><br />When we think the image, we always think infinitely many images. That's absolutely new. The algorithmic artist is thus a totally new kind of artist."<br /><br />
 — *Frieder Nake*
 
 
