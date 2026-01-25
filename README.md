@@ -3,7 +3,7 @@ This workshop will revisit the seminal works of the pioneers of generative art f
 
 https://stereolux.org/agenda/workshop-recoding-aux-sources-du-dessin-generatif
 
-<img src="data/images/Roland_DXY_1300.jpeg" height="350px" >
+<img src="data/images/260123_Stereolux_recoding_Roland_action.jpg" height="350px" >
 
 > "We think the image. We don't make it.<br /><br />When we think the image, we always think infinitely many images. That's absolutely new. The algorithmic artist is thus a totally new kind of artist."<br /><br />
 — *Frieder Nake*
