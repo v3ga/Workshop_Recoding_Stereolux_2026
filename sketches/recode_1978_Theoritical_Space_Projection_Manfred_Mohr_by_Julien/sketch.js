@@ -1,7 +1,7 @@
 //------------------------------------------------------------
 let format        = FORMAT_A3_MM;
 let DPCM          = 20;
-let filename      = "__template__";
+let filename      = "Recode_Theoritical_Projection_Space";
 let bDoExportSvg  = false;
 
 // ----------------------------------------------
@@ -13,10 +13,10 @@ let fillMode         = 'none'; // 'none', 'hatch'
 //------------------------------------------------------------
 function setup() 
 {
-  createCanvas(1000, 1000); 
+  createCanvas(400*2, 400*2); 
   setSvgResolutionDPCM(20);
   noLoop();
-  randomSeed(1234);
+  //randomSeed(1234);
 
   let marginPx        = 0.05*width;
   let dimGrid         = width-2*marginPx;
@@ -39,7 +39,7 @@ async function draw()
     beginRecordSvg(this, null);
 
   // BEGIN DRAW
-  let nbHatches = [5,7]
+  let nbHatches = [5,9]
   isogrids.forEach( (isogrid,i) => 
   {
     isogrid.setDrawRect(false).draw(2, false, true, nbHatches[i%nbHatches.length]) 
@@ -50,15 +50,8 @@ async function draw()
   {
     let strSVG = endRecordSvg();
 
-    // vpype resizing
-    let strSvgA3  = await vpype(strSVG, ['layout', '--fit-to-margins', '2cm', 'a3']);
-
-    // vpype for hpgl export
-    let strHPGL = await svgToHPGL(strSVG);
-
     // Save svg & hpgl
-    saveSvg(`${filename}.svg`,    strSvgA3);
-    saveHPGL(`${filename}.hpgl`,  strHPGL);
+    saveSvg(`${filename}.svg`,    strSVG);
 
     // Done exporting
     bDoExportSvg = false;
