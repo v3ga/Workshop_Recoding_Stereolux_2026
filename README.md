@@ -1,5 +1,5 @@
 # Recoding : aux sources du dessin génératif / Stereolux / 2026
-This workshop will revisit the seminal works of the pioneers of generative art from the 1960s and 1970s: Colette and Charles Bangart, Manfred Mohr, Frieder Nake, Georg Nees, Michael Noll, Vera Molnár, and others. At a time when computers and plotters were confined to research laboratories, these artists paved the way for new forms of creation using algorithmic material.<br />  
+This workshop will revisit the seminal works of the pioneers of generative art from the 1960s and 1970s: Colette and Charles Bangart, Frieder Nake, Georg Nees, Michael Noll, Vera Molnár, and others. At a time when computers and plotters were confined to research laboratories, these artists paved the way for new forms of creation using algorithmic material.<br />  
 
 https://stereolux.org/agenda/workshop-recoding-aux-sources-du-dessin-generatif
 
